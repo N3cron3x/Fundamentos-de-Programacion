@@ -1,5 +1,5 @@
 def contar_vocales():
-    palabra = input("Ingrese la palabra: ")
+    palabra = input("Ingrese una palabra: ")
     vocales = ["a", "e", "i", "o", "u"]
     contador = [0, 0, 0, 0, 0]
 
@@ -13,10 +13,10 @@ def contar_vocales():
         total += count
     print(f"Vocales totales: {total}")
 
-    respuesta = input("¿Desea intentar de nuevo? (s/n): ")
+    respuesta = input("¿Quiere intentar de nuevo? (s/n): ")
     if respuesta.lower() == "s":
         contar_vocales()
     else:
-        print("tt")
+        print("Esta bien")
 
 contar_vocales()
