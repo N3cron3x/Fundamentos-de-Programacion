@@ -11,7 +11,7 @@ digito2n2 = numero2 % 10
 
 if diferencia % 2 == 0:
     suma = digito1n1+digito1n2+digito2n1+digito2n2
-    print("La suma de los digitos de los numeros es: ", suma)
+    print("Ya que la diferencia es par, la suma de los digitos de los numeros es: ", suma)
 if diferencia == 4 or diferencia % 10 == 4:
     print(f"Los digitos del primer numero son: {digito1n1} y {digito2n1}")
     print(f"Los digitos del primer numero son: {digito1n2} y {digito2n2}")
