@@ -1,4 +1,4 @@
-eventos = {} 
+eventos = {3} 
 contador_eventos = 0  
 horas_por_dia = 24.0  
 
